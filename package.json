@@ -4,7 +4,7 @@
   "private": true,
   "description": "Demonstration project for students. Feburary 16",
   "scripts": {
-    "postinstall": "webdriver-manager update --gecko=false --standalone=false",
+    "postinstall": "webdriver-manager update --gecko=false --standalone=false", 
     "test": "protractor"
   },
   "dependencies": {
@@ -14,4 +14,4 @@
     "ts-node": "^4.1.0",
     "protractor": "^5.2.2"
   }
-}}
+}
