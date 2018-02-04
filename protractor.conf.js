@@ -1,7 +1,7 @@
 require('ts-node').register();
-
+let specFiles = "specs/*.ts"
 module.exports.config = {
-    specs: ['spec.ts'],
+    specs: [specFiles],
     directConnect: true,
     baseUrl: 'https://movies-finder.firebaseapp.com/',
     SELENIUM_PROMISE_MANAGER: false
